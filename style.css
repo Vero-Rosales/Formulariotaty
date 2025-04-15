@@ -1,0 +1,39 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input,
+textarea {
+  padding: 5px;
+  width: 100%;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.rojo {
+  background-color: red;
+  color: white;
+  border: none;
+}
+
+.verde {
+  background-color: green;
+  color: white;
+}
+
+#teclado button {
+  margin: 2px;
+  padding: 10px;
+}
